@@ -1,0 +1,87 @@
+//Scrool Event
+.nav_section {
+  transition: box-shadow 0.3s ease-in-out;
+  padding: 20px 3% 0px 3%;
+  position: sticky;
+  background: #ffff;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 90px;
+  z-index: 999;
+}
+.nav_section.shadow {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); // Customize the shadow as needed
+}
+
+.nav_hover_effect:hover {
+  color: #6a6a6c;
+}
+.icon-nav-direction-chnage,
+.icon-nav-direction-chnage1 {
+  transition: 0.5s;
+}
+// Nav Hosting
+
+.hosting,
+.pro {
+  position: relative;
+}
+.hosting-child-section,
+.pro-child-section {
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: -100px;
+  width: 400px;
+}
+
+p {
+  transform: rotate(360deg);
+  display: block !important;
+}
+
+.hosing-child,
+.pro-child {
+  position: relative;
+  top: 0px;
+  right: 30px;
+  z-index: 9999;
+  //   height: 200px;
+  &::after {
+    position: absolute;
+    top: -2px;
+    left: 50%;
+    content: "";
+    background: #fff;
+    border-radius: 2px 0;
+    box-shadow: -5px -5px 5px rgba(0, 0, 0, 0.03);
+    height: 16px;
+    transform: rotate(45deg) translateX(-50%);
+    width: 16px;
+  }
+  .hoting-child-item,
+  .pro-child-item {
+    cursor: pointer;
+  }
+  .hoting-child-item:hover {
+    transition: 1s;
+    transform: scale(1.1);
+  }
+  img {
+    width: 50px;
+  }
+}
+// Menu icon
+.menu-on,
+.menu-close {
+  cursor: pointer;
+  fill: #000 !important;
+}
+.nav-big-disply-none,
+.nav-big-disply-none-1 {
+  display: none !important ;
+}
+.small_screen {
+  display: none;
+}

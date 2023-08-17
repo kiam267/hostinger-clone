@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  </head>
+  <body>
+    
+
+<svg role="img" aria-labelledby="starRating-ozi3usszbie" viewBox="0 0 251 46" xmlns="http://www.w3.org/2000/svg" style="position: absolute; height: 100%; width: 100%; left: 0; top: 0;">
+      <title id="starRating-ozi3usszbie" lang="en">4.7 out of five star rating on Trustpilot</title>
+      <g class="tp-star">
+          <path class="tp-star__canvas" fill="#dcdce6" d="M0 46.330002h46.375586V0H0z"></path>
+          <path class="tp-star__shape" d="M39.533936 19.711433L13.230239 38.80065l3.838216-11.797827L7.02115 19.711433h12.418975l3.837417-11.798624 3.837418 11.798624h12.418975zM23.2785 31.510075l7.183595-1.509576 2.862114 8.800152L23.2785 31.510075z" fill="#FFF"></path>
+      </g>
+      <g class="tp-star">
+          <path class="tp-star__canvas" fill="#dcdce6" d="M51.24816 46.330002h46.375587V0H51.248161z"></path>
+          <path class="tp-star__canvas--half" fill="#dcdce6" d="M51.24816 46.330002h23.187793V0H51.248161z"></path>
+          <path class="tp-star__shape" d="M74.990978 31.32991L81.150908 30 84 39l-9.660206-7.202786L64.30279 39l3.895636-11.840666L58 19.841466h12.605577L74.499595 8l3.895637 11.841466H91L74.990978 31.329909z" fill="#FFF"></path>
+      </g>
+      <g class="tp-star">
+          <path class="tp-star__canvas" fill="#dcdce6" d="M102.532209 46.330002h46.375586V0h-46.375586z"></path>
+          <path class="tp-star__canvas--half" fill="#dcdce6" d="M102.532209 46.330002h23.187793V0h-23.187793z"></path>
+          <path class="tp-star__shape" d="M142.066994 19.711433L115.763298 38.80065l3.838215-11.797827-10.047304-7.291391h12.418975l3.837418-11.798624 3.837417 11.798624h12.418975zM125.81156 31.510075l7.183595-1.509576 2.862113 8.800152-10.045708-7.290576z" fill="#FFF"></path>
+      </g>
+      <g class="tp-star">
+          <path class="tp-star__canvas" fill="#dcdce6" d="M153.815458 46.330002h46.375586V0h-46.375586z"></path>
+          <path class="tp-star__canvas--half" fill="#dcdce6" d="M153.815458 46.330002h23.187793V0h-23.187793z"></path>
+          <path class="tp-star__shape" d="M193.348355 19.711433L167.045457 38.80065l3.837417-11.797827-10.047303-7.291391h12.418974l3.837418-11.798624 3.837418 11.798624h12.418974zM177.09292 31.510075l7.183595-1.509576 2.862114 8.800152-10.045709-7.290576z" fill="#FFF"></path>
+      </g>
+      <g class="tp-star">
+          <path class="tp-star__canvas" fill="#dcdce6" d="M205.064416 46.330002h46.375587V0h-46.375587z"></path>
+          <path class="tp-star__canvas--half" fill="#dcdce6" d="M205.064416 46.330002h23.187793V0h-23.187793z"></path>
+          <path class="tp-star__shape" d="M244.597022 19.711433l-26.3029 19.089218 3.837419-11.797827-10.047304-7.291391h12.418974l3.837418-11.798624 3.837418 11.798624h12.418975zm-16.255436 11.798642l7.183595-1.509576 2.862114 8.800152-10.045709-7.290576z" fill="#FFF"></path>
+      </g>
+</svg>
+
+
+<svg data-v-165629f9="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-label="star" role="presentation" class="h-icon-success" style="width: 30px; height: 30px;"><g data-v-165629f9=""><path data-v-165629f9="" d="M4.28972 21.9983C4.60518 20.7642 4.90881 19.5758 5.21301 18.388C5.58762 16.9254 5.96054 15.4623 6.34248 14.0014C6.38304 13.8467 6.34867 13.7607 6.23038 13.6607C4.21029 11.9625 2.19415 10.2603 0.177447 8.55875C0.127875 8.51687 0.0822455 8.47108 0 8.39513C0.362781 8.36832 0.680497 8.34208 0.998775 8.32197C3.16758 8.1818 5.33694 8.04275 7.50574 7.90314C7.70009 7.89085 7.895 7.86237 8.08879 7.86684C8.27187 7.87075 8.36256 7.80597 8.43185 7.63229C9.40471 5.18406 10.3855 2.73918 11.3651 0.293743C11.3983 0.211093 11.4344 0.12956 11.4896 0C11.5358 0.105546 11.5684 0.173677 11.5966 0.243483C12.583 2.70232 13.5711 5.1606 14.5496 7.62224C14.6222 7.80485 14.7163 7.85734 14.9073 7.86851C16.6429 7.9735 18.3774 8.09133 20.1124 8.2047C20.8977 8.25607 21.6829 8.30522 22.4682 8.35604C22.6248 8.36609 22.7814 8.37837 22.9375 8.3901C22.9583 8.41523 22.9792 8.4398 23 8.46493C22.9425 8.4923 22.8766 8.50961 22.8293 8.54926C20.8211 10.238 18.8156 11.9301 16.8046 13.6155C16.6496 13.745 16.5984 13.8534 16.653 14.0634C17.3206 16.6261 17.9746 19.1916 18.632 21.7571C18.6483 21.8213 18.6607 21.8861 18.6849 21.9933C18.5824 21.9324 18.5092 21.8911 18.4382 21.8464C16.1905 20.4347 13.9417 19.0246 11.698 17.6067C11.5386 17.5062 11.4338 17.5151 11.2811 17.6117C9.04249 19.024 6.80046 20.4302 4.55843 21.8375C4.48294 21.885 4.40577 21.9302 4.29028 22L4.28972 21.9983Z"></path></g></svg>
+
+
+
+
+   <!-- Bootstrap Link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+    <!--  -->
+
+    <style>
+      body{
+         background: red;
+      }
+    </style>
+  </body>
+</html>

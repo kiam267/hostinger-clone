@@ -1,0 +1,135 @@
+@media screen and (max-width: 1024px) {
+  // Nav Utilities  Start
+  .nav_section.shadow {
+    // box-shadow: 0 0 0 rgba(0, 0, 0, 0.3) !important; // Customize the shadow as needed
+  }
+  // Nav Utilities End
+
+  // Navbar
+  .body {
+    position: relative;
+  }
+  .nav-none {
+    display: none !important;
+  }
+  .small_screen * {
+    margin: 0px !important;
+  }
+  //Nav Menu button
+  .menu-on {
+    display: block !important ;
+  }
+  // .menu-on.close{
+  //  display: none !important;
+  // }
+  
+  // .menu-on.show{
+  //  display: block !important;
+  // }
+  // .menu-close.show{
+  //  display: block !important;
+  // }
+  // .menu-close.close{
+  //  display: none !important;
+  // }
+  //  Nav Language
+  .nav-laguage {
+    display: flex !important;
+    align-items: center;
+    padding: 15px 0px 15px 25px;
+    h3 {
+      margin-top: 4px !important;
+      padding-left: 3px;
+    }
+  }
+  .small_screen {
+    position: absolute;
+    top: -9999999px;
+    left: 0px;
+    width: 100%;
+    padding-left: 0px !important;
+    height: 95vh;
+    background-color: #fff;
+    overflow-y: scroll;
+
+    //flex
+    display: flex !important;
+    flex-direction: column;
+    align-items: start !important;
+    justify-content: start !important;
+
+    li {
+      padding: 15px 0px 15px 25px;
+      width: 100% !important;
+      a {
+        font-size: 1.7rem !important;
+        font-weight: 600;
+      }
+    }
+    //  Log in Button
+    .nav_hover_effect:hover {
+      color: #000;
+    }
+    button {
+      width: 95%;
+      display: block !important;
+      margin: 10px auto !important;
+      color: #673de6 !important;
+      border: 3px solid #673de6;
+    }
+  }
+  //   Hosting
+  .nav-big-disply-none-1 {
+    display: block !important;
+  }
+
+  .hosting-right-icon {
+    display: block !important;
+  }
+
+  .small-flex {
+    width: 100% !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between !important;
+  }
+  .small-screen-child {
+    position: absolute;
+    top: 20px;
+    border: 1px solid black;
+    background: red;
+    left: 0px;
+    width: 100%;
+    padding-left: 0px !important;
+    height: 95vh;
+    z-index: 1;
+  }
+
+  // Home Page Start
+  .home-page *{
+    text-align: center;
+    justify-content: center !important;
+  }
+  .trustpilot{
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+    .row{
+      padding-top: 0px !important;
+    }
+  }
+  .home-start-img{
+    margin: auto;
+  }
+  .home-trustpilot-logo{
+    margin-top: 50px;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .hosting-card{
+    width: 100% !important;
+  }
+  
+
+}
