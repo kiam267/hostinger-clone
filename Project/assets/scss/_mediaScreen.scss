@@ -22,7 +22,7 @@
   // .menu-on.close{
   //  display: none !important;
   // }
-  
+
   // .menu-on.show{
   //  display: block !important;
   // }
@@ -106,30 +106,66 @@
   }
 
   // Home Page Start
-  .home-page *{
+  .home-page * {
     text-align: center;
     justify-content: center !important;
   }
-  .trustpilot{
+  .trustpilot {
     padding-top: 0px !important;
     margin-top: 0px !important;
-    .row{
+    .row {
       padding-top: 0px !important;
     }
   }
-  .home-start-img{
+  .home-start-img {
     margin: auto;
   }
-  .home-trustpilot-logo{
+  .home-trustpilot-logo {
     margin-top: 50px;
   }
 }
 
-
-@media screen and (max-width: 600px) {
-  .hosting-card{
+@media screen and (max-width: 991px) {
+  .card-button {
     width: 100% !important;
   }
-  
+}
 
+@media screen and (max-width:767px) {
+  .footer-click {
+    display: block !important;
+    transform: rotate(180deg);
+  }
+  .footer-big {
+    display: none !important;
+  }
+  .footer-small {
+    display: block;
+  }
+.footer-effect-1,
+.footer-effect-2,
+.footer-effect-3,
+.footer-effect-4,
+.footer-effect-5,
+.footer-effect-6,
+.footer-effect-7{
+  display: none;
+}
+
+  //Footer
+  .footer-effect-1.show-hide,
+  .footer-effect-2.show-hide,
+  .footer-effect-3.show-hide,
+  .footer-effect-4.show-hide,
+  .footer-effect-5.show-hide 
+  .footer-effect-6.show-hide ,
+  .footer-effect-7.show-hide {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hosting-card {
+    width: 100% !important;
+  }
 }

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 62.5%;
+
+}
+body {
+ background: #1B1F22;
+  color: #ffffffe8;
+}
+.hover__effect{
+   cursor: pointer;
+}
+
+.hover__effect:hover{
+color: #DF83B1;
+transition: 0.5s;
+}
+.manuBar{
+  display: block;
+}
+.doc-nav{
+   display: none;
+}
+.show{
+   display: block !important;
+   
+}
+

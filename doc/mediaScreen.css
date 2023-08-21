@@ -1,0 +1,29 @@
+@media screen and (max-width: 1130px) {
+  .doc-nav {
+    display: flex !important;
+  }
+  body {
+    position: relative;
+  }
+  .manuBar {
+    position: absolute;
+     left:-999px;
+    top: 35px !important;
+    width: 200px;
+    transition: 0.5s;
+    z-index: 1;
+    background: #212529;
+  }
+.show {
+   position: fixed;
+    left: 0px !important;
+  }
+  .menu-tablet-mood{
+   position: static !important;
+  }
+  .sticky{
+   position: fixed;
+   top: -15px;
+   left: 0px;
+  }
+}

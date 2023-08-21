@@ -11,28 +11,16 @@ $(document).ready(function () {
 	})
 
 
-	// add 1:13 pm
-	let clickEvent = true;
-	// clickEvent && $("body-add-1").removeClass('body-add');
-
 	$(".add-nav-click-event").click(function () {
 		$(".hosting-child-section").css('display', 'block')
-		$(".removeadd").removeClass('add-nav-click-event')
-		clickEvent = false;
-		$(".body-add-1").addClass('body-add');
-
-    
-		// $(".pro-child-section").css('display', 'none')
-		// $(".icon-nav-direction-chnage").css('transform', "rotate(180deg)")
-		// $(".icon-nav-direction-chnage1").css('transform', "rotate(360deg)")
+		$(".pro-child-section").css('display', 'none')
+		$(".icon-nav-direction-chnage").css('transform', "rotate(180deg)")
+		$(".icon-nav-direction-chnage1").css('transform', "rotate(360deg)")
 	});
 	
-
-	// clickEvent && $("body-add-1").removeClass('body-add');
-	$(".body-add").click(function () {
-		// $(".icon-nav-direction-chnage").css('transform', "rotate(360deg)")
+	$(".allBody").click(function () {
+		$(".icon-nav-direction-chnage").css('transform', "rotate(360deg)")
 		$(".hosting-child-section").css('display', 'none')
-		// console.log("JI");
 	});
 
 	$(".add-nav-click-event1").click(function () {
@@ -46,6 +34,9 @@ $(document).ready(function () {
 		$(".icon-nav-direction-chnage1").css('transform', "rotate(360deg)")
 		$(".pro-child-section").css('display', 'none')
 	});
+
+
+
 
 	//  menu Icon
 
@@ -126,5 +117,30 @@ $(document).ready(function () {
 		$('.hosting-child-3').addClass('button-3')
 
 		$('.hosting-child-2').removeClass('addZindex');
+	});
+
+
+	// Footer
+
+	$('.footer-1').click(() => {
+		$('.footer-effect-1').toggle('show-hide');
+	})
+	$('.footer-2').click(() => {
+		$('.footer-effect-2').toggle('show-hide')
+	})
+	$('.footer-3').click(() => {
+		$('.footer-effect-3').toggle('show-hide')
+	})
+	$('.footer-4').click(() => {
+		$('.footer-effect-4').toggle('show-hide')
+	})
+	$('.footer-5').click(() => {
+		$('.footer-effect-5').toggle('show-hide')
+	})
+	$('.footer-6').click(() => {
+		$('.footer-effect-6').toggle('show-hide')
+	})
+	$('.footer-7').click(() => {
+		$('.footer-effect-7').toggle('show-hide')
 	})
 });

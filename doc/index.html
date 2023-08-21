@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Project Doc</title>
+    <!-- Bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <!-- Font-Awsome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./mediaScreen.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div
+        class="doc-nav justify-content-between mt-3 ps-3 py-3 navbar w-100 px-3"
+        style="background: #212529"
+      >
+        <i class="fa-solid fa-bars fs-1 menu-button"></i>
+        <h1 class="fs-2 fw-bold">Doc</h1>
+      </div>
+      <div class="row">
+        <div class="col-2 manuBar">
+          <div
+            class="d-flex justify-content-start align-items-start pt-5 rounded-2 menu-tablet-mood"
+            style="
+              border: 1px solid #212529;
+              height: 100vh;
+              position: sticky;
+              top: 0px;
+              background: #212529;
+            "
+          >
+            <ul class="nav-item">
+              <li class="nav-link">
+                <div class="d-flex align-items-center">
+                  <i
+                    class="fa-solid fa-triangle-exclamation fs-2 text-danger"
+                  ></i>
+                  <span class="fs-2 fw-bold ms-3">Problem</span>
+                </div>
+                <ul class="nav-item mt-3">
+                  <li
+                    class="nav-link fs-5 fw-semibold hover__effect nav__click"
+                    style="letter-spacing: 1px"
+                  >
+                    Problem 1
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-link mt-5">
+                <div class="d-flex align-items-center">
+                  <i class="fa-solid fa-book fs-2" style="color: #6610f2"></i>
+                  <span class="fs-2 fw-bold ms-3">Doc</span>
+                </div>
+                <ul class="nav-item mt-3">
+                  <li
+                    class="nav-link fs-5 fw-semibold hover__effect nav__click"
+                    style="letter-spacing: 1px"
+                  >
+                    Langauge
+                  </li>
+                  <li
+                    class="nav-link fs-5 fw-semibold hover__effect mt-2 nav__click"
+                    style="letter-spacing: 1px"
+                  >
+                    Install app
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-link mt-5">
+                <div class="d-flex align-items-center">
+                  <i
+                    class="fa-solid fa-address-card fs-3"
+                    style="color: #2bd0f1"
+                  ></i>
+                  <span class="fs-2 fw-bold ms-2 nav__click">About me</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col">
+          <div class="mt-3">
+            <div>
+              <h1
+                class="text-center fw-bold"
+                style="font-size: 7rem; font-family: 'Handjet', cursive"
+              >
+                What I have encountered in this Project
+              </h1>
+              <p class="fs-3 fw-semibold text-end" style="color: #6610f2">
+                Hosting Clone
+              </p>
+            </div>
+            <!-- Problem 1 -->
+            <div class="peoblem-1 click__effect d-none">
+              <h2 class="fs-2 fw-bold">Problem : 01</h2>
+              <p class="fs-3">
+                When a navber link is clicked on Hostinger,a popover out. When
+                the popver is clicked to close, it closes on matter where the
+                user clicks. Whice is a bit surprising to me.
+              </p>
+              <div class="">
+                <video class="w-100" controls autoplay>
+                  <source src="./video/navvideo.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+              <h2 class="fs-2 fw-bold">Solve</h2>
+            </div>
+
+            <!-- Langauge  -->
+            <div class="langauge mt-5 click__effect d-none">
+              <h2 class="fs-2 fw-bold">What Language I Use 🎉:</h2>
+              <ul>
+                <li class="fs-3 fw-semibold" style="color: #683fd8">HTML</li>
+                <li class="fs-3 fw-semibold" style="color: #683fd8">CSS</li>
+                <li class="fs-3 fw-semibold" style="color: #683fd8">SCSS</li>
+                <li class="fs-3 fw-semibold" style="color: #683fd8">
+                  Bootstrap
+                </li>
+                <li class="fs-3 fw-semibold" style="color: #683fd8">
+                  Javascript
+                </li>
+                <li class="fs-3 fw-semibold" style="color: #683fd8">J-Query</li>
+              </ul>
+            </div>
+            <!-- Install App  -->
+            <div class="Install mt-5 click__effect d-none">
+              <img
+                class="w-100"
+                src="./img/Screenshot 2023-08-21 083114.png"
+                alt=""
+              />
+              <p class="fs-3 fw-normal mt-5">
+                First, you click on 
+                <span class="fs-3 fw-bold" style="color: #e17da5"
+                  >"Live Server"</span
+                > .Because when you change your code then instantly change your
+                browser thatwhy it needs. if you download <span
+                  class="fs-3 fw-bold"
+                  style="color: #e17da5"
+                  >"Prettier"</span
+                >
+                 then you give a better experience. because it beafutify your
+                code .
+              </p>
+            </div>
+            <!-- Install App  -->
+            <div class="Install mt-5 click__effect d-none">
+            
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      let menu = document.querySelector(".menu-button");
+      let navMenu = document.querySelector(".manuBar");
+      menu.addEventListener("click", () => {
+        navMenu.classList.toggle("show");
+      });
+
+      // Nav bar
+      const navbar = document.querySelector(".navbar");
+      const sticky = navbar.offsetTop;
+
+      window.addEventListener("scroll", () => {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky");
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      });
+
+      let Click = document.querySelectorAll(".nav__click");
+      let ClickEffect = document.querySelectorAll(".click__effect");
+      let count = -1;
+      Click.forEach((element, index) => {
+        element.addEventListener("click", (e) => {
+          let main =
+            count === -1 ? "" : ClickEffect[count].classList.remove("show");
+
+          if (true) {
+            ClickEffect[index].classList.add("show");
+            count = index;
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
