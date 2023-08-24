@@ -15,7 +15,7 @@
   background: #ffffffb7;
 }
 .hosting-list {
-  // display: flex;
+  // Flex
   display: grid;
   grid-template-columns: 350px 350px 350px;
   justify-content: center;
@@ -41,18 +41,17 @@
     text-align: center;
     left: 15%;
     &::after {
-      border-left: 6px solid transparent;
-      border-right: 6px solid transparent;
-      border-top: 6px solid #fc5185;
-      bottom: -6px;
       content: "";
       left: 50%;
       position: absolute;
       transform: translate(-50%);
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent;
+      border-top: 6px solid #fc5185;
+      bottom: -6px;
     }
   }
   &:hover {
-    //  transform:scale(1.1);
     box-shadow: 0.1px 0.1px 10px 1px #08080828;
   }
 }
@@ -63,11 +62,11 @@
   overflow: visible !important;
   transform: translateX((2 * 190px) * 1);
 }
-.hosting-child-1.button-1{
+.hosting-child-1.button-1 {
   z-index: 1 !important;
 }
 
-.hosting-child-2.button-2{
+.hosting-child-2.button-2 {
   z-index: 1 !important;
 }
 
@@ -76,7 +75,7 @@
   overflow: visible !important;
   transform: translateX((2 * 190px) * 0);
 }
-.hosting-child-3.button-3{
+.hosting-child-3.button-3 {
   z-index: 1 !important;
 }
 .hosting-child.button-3 {
@@ -84,14 +83,9 @@
   overflow: visible !important;
   transform: translateX((-2 * 190px) * 1);
 }
-.hosting-child-2.addZindex{
+.hosting-child-2.addZindex {
   z-index: 1 !important;
 }
-// .hosting-child{
-//   transition: 0.5;
-// transform: translateX(((-2 * 190px ) * 1));
-// }
-
 // Card Up Down add
 .card-show-2 {
   display: none;

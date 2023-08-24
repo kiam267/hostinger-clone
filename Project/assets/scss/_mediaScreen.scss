@@ -1,3 +1,17 @@
+
+
+
+@media screen and (min-width: 1500px) {
+ .hosting-plan-button{
+  display: none !important;
+ }
+ .hosting-card {
+  width: 100%;
+  overflow: visible;
+  background:none;
+}
+}
+
 @media screen and (max-width: 1024px) {
   // Nav Utilities  Start
   .nav_section.shadow {
@@ -70,6 +84,9 @@
     .nav_hover_effect:hover {
       color: #000;
     }
+    .nav-button {
+      width: 100% !important;
+    }
     button {
       width: 95%;
       display: block !important;
@@ -78,6 +95,13 @@
       border: 3px solid #673de6;
     }
   }
+  .nav-small-hover{
+  color: #909EB7;
+  transition: 0.5s;
+}
+.nav-small-hover:hover{
+  color: #000;
+}
   //   Hosting
   .nav-big-disply-none-1 {
     display: block !important;
@@ -93,17 +117,23 @@
     align-items: center;
     justify-content: space-between !important;
   }
+
+
   .small-screen-child {
     position: absolute;
     top: 20px;
-    border: 1px solid black;
-    background: red;
-    left: 0px;
+    background: #fff;
+    right:-999px;
     width: 100%;
     padding-left: 0px !important;
-    height: 95vh;
+    height: 90vh;
     z-index: 1;
+    transition:0.5s;
   }
+//nav small
+.small-screen-child.add{
+  right: 0px;
+}
 
   // Home Page Start
   .home-page * {

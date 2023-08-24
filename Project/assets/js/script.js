@@ -53,6 +53,11 @@ $(document).ready(function () {
 		}
 	})
 
+	$('.nav-small-click-1').click(() => {
+		let smallScreen = $('.small-screen-child');
+		smallScreen[0].classList.add("add")
+	})
+
 
 
 	// Card Function Add
